@@ -7,7 +7,7 @@ This project demonstrates real-world form handling, validation, and user experie
 
 ## ✨ Live Demo
 
-👉 (Add your deployed link here – Vercel/Netlify)
+👉 ([https://multi-step-registration-wizard.vercel.app/])
 
 ---
 
