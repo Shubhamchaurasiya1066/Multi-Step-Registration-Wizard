@@ -1,16 +1,68 @@
-# React + Vite
+# 🚀 Registration Wizard (Multi-Step Form)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, premium **multi-step registration form** built using React.
+This project demonstrates real-world form handling, validation, and user experience design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Live Demo
 
-## React Compiler
+👉 (Add your deployed link here – Vercel/Netlify)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🔹 Multi-step form (3 steps)
+* 🔹 Real-time validation (React Hook Form + Zod)
+* 🔹 Data persistence (Back button retains data)
+* 🔹 Show/Hide password toggle
+* 🔹 Review & Submit page
+* 🔹 Progress bar indicator
+* 🔹 Premium UI (Glassmorphism + Gradient)
+
+---
+
+## 🧠 Tech Stack
+
+* ⚛️ React (Vite)
+* 🎯 React Hook Form
+* 🛡️ Zod (Schema Validation)
+* 🎨 Tailwind CSS
+
+---
+
+## 📂 Folder Structure
+
+```
+src/
+ ├── components/
+ │    ├── InputField.jsx
+ │    ├── ProgressBar.jsx
+ │    └── Buttons.jsx
+ ├── steps/
+ │    ├── StepOne.jsx
+ │    ├── StepTwo.jsx
+ │    └── StepThree.jsx
+ ├── Wizard.jsx
+ └── App.jsx
+```
+
+---
+
+## 🎯 Key Concepts Used
+
+* Controlled & uncontrolled components
+* Lifting state up
+* Conditional rendering
+* Form validation using schema
+* UX best practices for forms
+
+---
+
+## 🙌 Author
+
+**Shubham Chaurasiya**
+
+
+Give it a star ⭐ on GitHub!
